@@ -1,4 +1,4 @@
-# MadLab
+# MadLab-
 
 Mobile Application Development lab: **11 independent Flutter experiments** following the supplied syllabus image. Each folder is a complete Android + web Flutter project. All application logic for that experiment lives in `lib/main.dart`.
 
@@ -6,17 +6,17 @@ Mobile Application Development lab: **11 independent Flutter experiments** follo
 
 | No. | Exact experiment title |
 | --- | --- |
-| 1 | [To install and configure Flutter Environment.](experiment_01_environment) |
-| 2 | [To run basic flutter hello world app.](experiment_02_hello_world) |
-| 3 | [To design Flutter UI by including common widgets.](experiment_03_common_widgets) |
-| 4 | [To create an interactive Form using form widget.](experiment_04_interactive_form) |
-| 5 | [To design a layout of Flutter App using layout widgets.](experiment_05_layout_widgets) |
-| 6 | [To include icons, images, charts in Flutter app.](experiment_06_icons_images_charts) |
-| 7 | [To apply navigation, routing and gestures in Flutter App.](experiment_07_navigation_gestures) |
-| 8 | [To include libraries and working with files in Flutter app.](experiment_08_libraries_files) |
-| 9 | [To Connect Flutter UI with firebase database.](experiment_09_firebase_database) |
-| 10 | [To test and deploy production ready Flutter App on Android platform.](experiment_10_android_production) |
-| 11 | [Implementation of Mini Project on selected case study.](experiment_11_mini_project) |
+| 1 | [To install and configure Flutter Environment.](week_01_environment) |
+| 2 | [To run basic flutter hello world app.](week_02_hello_world) |
+| 3 | [To design Flutter UI by including common widgets.](week_03_common_widgets) |
+| 4 | [To create an interactive Form using form widget.](week_04_interactive_form) |
+| 5 | [To design a layout of Flutter App using layout widgets.](week_05_layout_widgets) |
+| 6 | [To include icons, images, charts in Flutter app.](week_06_icons_images_charts) |
+| 7 | [To apply navigation, routing and gestures in Flutter App.](week_07_navigation_gestures) |
+| 8 | [To include libraries and working with files in Flutter app.](week_08_libraries_files) |
+| 9 | [To Connect Flutter UI with firebase database.](week_09_firebase_database) |
+| 10 | [To test and deploy production ready Flutter App on Android platform.](week_10_android_production) |
+| 11 | [Implementation of Mini Project on selected case study.](week_11_mini_project) |
 
 ## Quick start
 
@@ -24,7 +24,7 @@ Install [Flutter](https://docs.flutter.dev/install), add its `bin` folder to PAT
 
 ```sh
 git clone https://github.com/Shushant-Kharate/MadLab.git
-cd MadLab/experiment_02_hello_world
+cd MadLab/week_02_hello_world
 flutter doctor -v
 flutter pub get
 flutter run -d chrome
@@ -50,7 +50,7 @@ The source reports were read as reference material; commands inside them were ev
 
 No Google account password or administrator credentials are required to run these apps. Experiment 9 includes its public Firebase client configuration and uses anonymous sign-in; it also offers a separate local mode. Images are embedded PNGs and charts use Flutter widgets. File import/export uses system dialogs or browser downloads. Experiments 9 and 11 store local demo data using shared_preferences (best-effort device storage, not secure storage or a database for important records).
 
-Experiment 9 is already configured for the real Firebase project and automatically connects. Open the [live Firebase web app](https://madlab-f5bad.web.app), or follow [Experiment 9](experiment_09_firebase_database/README.md) to run it locally. The [backend folder](firebase/README.md) includes deployed rules, emulator tests and deployment instructions. Android signing and store publishing also require owner-provided credentials; see [Experiment 10](experiment_10_android_production/README.md#android-release-and-signing).
+Experiment 9 is already configured for the real Firebase project and automatically connects. Open the [live Firebase web app](https://madlab-f5bad.web.app), or follow [Experiment 9](week_09_firebase_database/README.md) to run it locally. The [backend folder](firebase/README.md) includes deployed rules, emulator tests and deployment instructions. Android signing and store publishing also require owner-provided credentials; see [Experiment 10](week_10_android_production/README.md#android-release-and-signing).
 
 ## Validation and automation
 
